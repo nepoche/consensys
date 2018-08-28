@@ -1,0 +1,6 @@
+When thinking about security, I decided to use battle-tested libraries like SafeMath
+to eliminate chances of integer overflow/underflow. I further eliminated this risk
+by starting indices at "1" rather than "0".
+
+The variable access design-pattern that I used also eliminates DOS attacks via
+transaction spam as random accesses to my data is completed in constant time.

@@ -1,0 +1,10 @@
+I wrote three tests in solidity and two tests in javascript.
+
+Most of the community writes tests in javascript; however, the throw proxy
+pattern available via solidity testing seemed to be a lot more elegant in
+testing for correct contract throws.
+
+The other tests were written in javascript due to the difficulty of writing
+tests in solidity from the perspective of different account.
+
+The tests mostly cover access controls to various aspects of the application.

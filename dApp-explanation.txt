@@ -1,0 +1,18 @@
+Welcome to GBC votes, an application designed to monitor the voting aspects
+of a university organization. The president is able to create elections,
+and pre-approved members are eligible to vote in these elections.
+
+After installing basic dependencies such as node, npm, and truffle start the
+application:
+    1) run npm install
+    2) ganache-cli
+    3) truffle compile && truffle migrate
+    4) npm run start
+
+
+To create an election, navigate to "/admin" and follow the prompt. Any accounts
+that should be voting need to be approved by whichever account deployed the
+contracts.
+
+After creating an election, approved members can vote from the "/dashboard" page.
+

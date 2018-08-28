@@ -1,0 +1,7 @@
+Emergency stop is implemented in the form of freezing votes. As the application
+is under a lot of access control, the emergency stop is not as pervasive
+as it would probably be in a different application.
+
+I also implemented a variable access design pattern to improve performance.
+This design pattern makes greater use of structs and mappings; allowing arbitrary
+access in constant time rather than having a potentially unwieldy loop.
